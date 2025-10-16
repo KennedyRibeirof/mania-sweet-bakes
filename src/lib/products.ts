@@ -1,0 +1,80 @@
+import { Product } from '@/types';
+import cookieNutella from '@/assets/cookie-nutella.jpg';
+import cookieNinho from '@/assets/cookie-ninho.jpg';
+import cookieMaracuja from '@/assets/cookie-maracuja.jpg';
+import cookieBeijinho from '@/assets/cookie-beijinho.jpg';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Cookie de Nutella',
+    dough: 'chocolate',
+    filling: 'nutella',
+    description: 'Delicioso cookie de massa de chocolate recheado com cremoso Nutella',
+    price: 3.00,
+    image: cookieNutella,
+  },
+  {
+    id: '2',
+    name: 'Cookie de Ninho',
+    dough: 'baunilha',
+    filling: 'ninho',
+    description: 'Cookie de massa de baunilha com recheio de leite Ninho',
+    price: 3.00,
+    image: cookieNinho,
+  },
+  {
+    id: '3',
+    name: 'Cookie de Maracujá',
+    dough: 'baunilha',
+    filling: 'maracuja',
+    description: 'Cookie de massa de baunilha com refrescante recheio de maracujá',
+    price: 3.00,
+    image: cookieMaracuja,
+  },
+  {
+    id: '4',
+    name: 'Cookie de Beijinho',
+    dough: 'chocolate',
+    filling: 'beijinho',
+    description: 'Cookie de massa de chocolate com irresistível recheio de beijinho',
+    price: 3.00,
+    image: cookieBeijinho,
+  },
+  {
+    id: '5',
+    name: 'Cookie Nutella Baunilha',
+    dough: 'baunilha',
+    filling: 'nutella',
+    description: 'Cookie de massa de baunilha recheado com Nutella',
+    price: 3.00,
+    image: cookieNutella,
+  },
+  {
+    id: '6',
+    name: 'Cookie Ninho Chocolate',
+    dough: 'chocolate',
+    filling: 'ninho',
+    description: 'Cookie de massa de chocolate com recheio de leite Ninho',
+    price: 3.00,
+    image: cookieNinho,
+  },
+  {
+    id: '7',
+    name: 'Cookie Maracujá Chocolate',
+    dough: 'chocolate',
+    filling: 'maracuja',
+    description: 'Cookie de massa de chocolate com recheio de maracujá',
+    price: 3.00,
+    image: cookieMaracuja,
+  },
+  {
+    id: '8',
+    name: 'Cookie Beijinho Baunilha',
+    dough: 'baunilha',
+    filling: 'beijinho',
+    description: 'Cookie de massa de baunilha com recheio de beijinho',
+    price: 3.00,
+    image: cookieBeijinho,
+  },
+];
