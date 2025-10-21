@@ -9,7 +9,7 @@ export interface Product {
   id: string;
   name: string;
   dough: 'baunilha' | 'chocolate' | 'red-velvet';
-  filling: 'nutella' | 'ninho' | 'maracuja' | 'beijinho';
+  filling: 'nutella' | 'ninho' | 'maracuja' | 'beijinho' | 'doce-de-leite';
   description: string;
   price: number;
   image: string;

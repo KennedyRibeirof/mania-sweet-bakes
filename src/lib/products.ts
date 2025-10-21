@@ -4,6 +4,7 @@ import cookieNinho from '@/assets/cookie-ninho.jpg';
 import cookieMaracuja from '@/assets/cookie-maracuja.jpg';
 import cookieBeijinho from '@/assets/cookie-beijinho.jpg';
 import cookieRedVelvet from '@/assets/cookie-red-velvet.jpg';
+import cookieDoceDeLeite from '@/assets/cookie-doce-de-leite.jpg';
 
 export const products: Product[] = [
   {
@@ -113,5 +114,32 @@ export const products: Product[] = [
     description: 'Cookie de massa red velvet com irresistível recheio de beijinho',
     price: 3.00,
     image: cookieRedVelvet,
+  },
+  {
+    id: '13',
+    name: 'Cookie Baunilha Doce de Leite',
+    dough: 'baunilha',
+    filling: 'doce-de-leite',
+    description: 'Cookie de massa de baunilha com delicioso recheio de doce de leite',
+    price: 3.00,
+    image: cookieDoceDeLeite,
+  },
+  {
+    id: '14',
+    name: 'Cookie Chocolate Doce de Leite',
+    dough: 'chocolate',
+    filling: 'doce-de-leite',
+    description: 'Cookie de massa de chocolate com cremoso recheio de doce de leite',
+    price: 3.00,
+    image: cookieDoceDeLeite,
+  },
+  {
+    id: '15',
+    name: 'Cookie Red Velvet Doce de Leite',
+    dough: 'red-velvet',
+    filling: 'doce-de-leite',
+    description: 'Cookie de massa red velvet com suave recheio de doce de leite',
+    price: 3.00,
+    image: cookieDoceDeLeite,
   },
 ];
