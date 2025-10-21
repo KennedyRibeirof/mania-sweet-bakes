@@ -10,6 +10,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { useToast } from '@/hooks/use-toast';
 import { Minus, Plus } from 'lucide-react';
 import { CartItem } from '@/types';
+import { formatDoughName, formatFillingName } from '@/lib/formatters';
 
 const Product = () => {
   const { id } = useParams();
@@ -73,7 +74,7 @@ const Product = () => {
             <div>
               <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
               <p className="text-muted-foreground">
-                Massa de {product.dough} • Recheio de {product.filling}
+                Massa de {formatDoughName(product.dough)} • Recheio de {formatFillingName(product.filling)}
               </p>
             </div>
 

@@ -2,6 +2,7 @@ import { Product } from '@/types';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
+import { formatDoughName, formatFillingName } from '@/lib/formatters';
 
 interface ProductCardProps {
   product: Product;
@@ -22,7 +23,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       <CardHeader>
         <CardTitle className="text-lg">{product.name}</CardTitle>
         <CardDescription className="text-sm">
-          Massa de {product.dough} • Recheio de {product.filling}
+          Massa de {formatDoughName(product.dough)} • Recheio de {formatFillingName(product.filling)}
         </CardDescription>
       </CardHeader>
       <CardContent>
