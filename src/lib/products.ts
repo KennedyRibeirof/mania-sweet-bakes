@@ -5,6 +5,7 @@ import cookieMaracuja from '@/assets/cookie-maracuja.jpg';
 import cookieBeijinho from '@/assets/cookie-beijinho.jpg';
 import cookieRedVelvet from '@/assets/cookie-red-velvet.jpg';
 import cookieDoceDeLeite from '@/assets/cookie-doce-de-leite.jpg';
+import cookieBaunilha from '@/assets/cookie-baunilha.jpg';
 
 export const products: Product[] = [
   {
@@ -32,7 +33,7 @@ export const products: Product[] = [
     filling: 'nutella',
     description: 'Cookie de massa de baunilha recheado com Nutella',
     price: 3.00,
-    image: cookieNutella,
+    image: cookieBaunilha,
   },
   {
     id: '4',
@@ -41,7 +42,7 @@ export const products: Product[] = [
     filling: 'ninho',
     description: 'Cookie de massa de baunilha com recheio de leite Ninho',
     price: 3.00,
-    image: cookieNinho,
+    image: cookieBaunilha,
   },
   {
     id: '5',
@@ -50,7 +51,7 @@ export const products: Product[] = [
     filling: 'doce-de-leite',
     description: 'Cookie de massa de baunilha com delicioso recheio de doce de leite',
     price: 3.00,
-    image: cookieDoceDeLeite,
+    image: cookieBaunilha,
   },
   {
     id: '6',
@@ -59,7 +60,7 @@ export const products: Product[] = [
     filling: 'maracuja',
     description: 'Cookie de massa de baunilha com refrescante recheio de maracujá',
     price: 3.00,
-    image: cookieMaracuja,
+    image: cookieBaunilha,
   },
   {
     id: '7',
@@ -68,6 +69,6 @@ export const products: Product[] = [
     filling: 'beijinho',
     description: 'Cookie de massa de baunilha com irresistível recheio de beijinho',
     price: 3.00,
-    image: cookieBeijinho,
+    image: cookieBaunilha,
   },
 ];
