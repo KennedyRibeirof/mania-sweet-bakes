@@ -8,7 +8,7 @@ export interface User {
 export interface Product {
   id: string;
   name: string;
-  dough: 'baunilha' | 'chocolate';
+  dough: 'baunilha' | 'chocolate' | 'red-velvet';
   filling: 'nutella' | 'ninho' | 'maracuja' | 'beijinho';
   description: string;
   price: number;

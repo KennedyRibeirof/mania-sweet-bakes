@@ -3,6 +3,7 @@ import cookieNutella from '@/assets/cookie-nutella.jpg';
 import cookieNinho from '@/assets/cookie-ninho.jpg';
 import cookieMaracuja from '@/assets/cookie-maracuja.jpg';
 import cookieBeijinho from '@/assets/cookie-beijinho.jpg';
+import cookieRedVelvet from '@/assets/cookie-red-velvet.jpg';
 
 export const products: Product[] = [
   {
@@ -76,5 +77,41 @@ export const products: Product[] = [
     description: 'Cookie de massa de baunilha com recheio de beijinho',
     price: 3.00,
     image: cookieBeijinho,
+  },
+  {
+    id: '9',
+    name: 'Cookie Red Velvet Nutella',
+    dough: 'red-velvet',
+    filling: 'nutella',
+    description: 'Cookie de massa red velvet recheado com cremoso Nutella',
+    price: 3.00,
+    image: cookieRedVelvet,
+  },
+  {
+    id: '10',
+    name: 'Cookie Red Velvet Ninho',
+    dough: 'red-velvet',
+    filling: 'ninho',
+    description: 'Cookie de massa red velvet com recheio de leite Ninho',
+    price: 3.00,
+    image: cookieRedVelvet,
+  },
+  {
+    id: '11',
+    name: 'Cookie Red Velvet Maracujá',
+    dough: 'red-velvet',
+    filling: 'maracuja',
+    description: 'Cookie de massa red velvet com refrescante recheio de maracujá',
+    price: 3.00,
+    image: cookieRedVelvet,
+  },
+  {
+    id: '12',
+    name: 'Cookie Red Velvet Beijinho',
+    dough: 'red-velvet',
+    filling: 'beijinho',
+    description: 'Cookie de massa red velvet com irresistível recheio de beijinho',
+    price: 3.00,
+    image: cookieRedVelvet,
   },
 ];
