@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-import { HelpCircle } from 'lucide-react';
+import { HelpCircle, Mail } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -11,12 +10,16 @@ export const Footer = () => {
               <HelpCircle className="h-5 w-5" />
               Atendimento ao Cliente
             </h3>
-            <Link 
-              to="/suporte" 
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
+            <p className="text-sm text-muted-foreground mb-2">
               Suporte Técnico da Empresa - Central de Ajuda
-            </Link>
+            </p>
+            <a 
+              href="mailto:maniacookiesuporte@gmail.com"
+              className="text-primary hover:text-primary/80 transition-colors flex items-center justify-center gap-2 font-medium"
+            >
+              <Mail className="h-4 w-4" />
+              maniacookiesuporte@gmail.com
+            </a>
           </div>
           <div className="text-center text-sm text-muted-foreground">
             <p>© {new Date().getFullYear()} ManiaCookies. Todos os direitos reservados.</p>
