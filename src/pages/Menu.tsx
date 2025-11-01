@@ -1,4 +1,5 @@
 import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 import { ProductCard } from '@/components/ProductCard';
 import { products } from '@/lib/products';
 import { useEffect } from 'react';
@@ -44,6 +45,8 @@ const Menu = () => {
           ))}
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 };
